@@ -1,0 +1,82 @@
+/*  main.css */
+* {
+	margin: 0;
+	padding: 0;
+}
+body {
+	font-family: "Verdana", sans-serif;
+}
+.wrapper {
+	/*background: url(../images/bg-blue.jpg) no-repeat;*/
+	border: solid .15em #2F343D;	
+	margin:0 auto;
+	padding: .25em 0;
+	width: 30em;
+	border-radius: .45em;
+}
+.shop h1, .shop p {
+	margin: .75em auto;
+	padding: .5em 0;
+	text-align: center;
+	background-color: #a6a6a6;
+	border: solid .15em #2F343D;
+	border-radius: 1em;
+	color: #fff;
+}
+.shop {
+	text-align: center;
+}
+.shop h1 {
+	width: 10em;
+}
+.shop p {
+	width: 15em;
+}
+#items {
+	margin-right: .25em;
+	padding-left: .5em;
+    height: 1.75em;
+	background-color: #a6a6a6;
+	border: solid .15em #2F343D;
+	border-radius: .75em;
+	color: #fff;
+}
+button {
+	background-color: #a6a6a6;
+	border: solid .15em #2F343D;
+	border-radius: .75em;
+	color: #fff;
+    padding: .25em;		
+}
+ul {
+	list-style-type: none;
+	text-align: left;
+}
+li {
+	width: 80%;
+	margin: .75em auto;
+	padding: .5em 0; 
+	border: solid .15em #2F343D;
+	border-radius: .35em;
+}
+#remove {
+	margin: -.35em .25em;
+	float: right;
+	width: 2em;
+}
+.cat li {
+	background-color: #a6a6a6;
+	color: #fff;
+}
+#check {
+	margin: 0 .45em;
+}
+.line {
+	text-decoration: line-through;
+}
+@media only screen and (max-width: 900px) {
+	.wrapper {
+		width: 25em;
+		background-color: pink;
+	}
+}
