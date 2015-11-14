@@ -14,6 +14,6 @@ $(document).ready(function() {
     }); 
 // Adds a line-through from the class 'line' on the list item when the checkbox is selected and removed when clicked again 
     $('.cat').on('click', '#check', function() {
-       $(this).parent('li').toggleClass('line');
+       $ (this).parent('li').toggleClass('line');
     });
 });
