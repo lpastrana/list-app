@@ -39,7 +39,7 @@ body {
 	background-color: #a6a6a6;
 	border: solid .15em #2F343D;
 	border-radius: .75em;
-	color: #fff;
+	color: #000;
 }
 button {
 	background-color: #a6a6a6;
@@ -69,11 +69,23 @@ li {
 }
 .cat li {
 	background-color: #a6a6a6;
-	color: #fff;
+	color: #000;
 }
 #check {
 	margin: 0 .45em;
 }
 .line {
 	text-decoration: line-through;
+	text-decoration-color: red;
+}
+@media (max-width: 500px) {
+	.wrapper {
+		width: 20em;
+	}
+	.shop h1 {
+		width: 80%;
+	}
+	h1 {
+		font-size: 1.5em;
+	}
 }

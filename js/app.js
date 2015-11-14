@@ -12,12 +12,8 @@ $(document).ready(function() {
     $('input').on('click focusin', function() {
       this.value = '';
     }); 
-// Adds a line-through from the class 'line' on the list item when the checkbox is selected  
+// Adds a line-through from the class 'line' on the list item when the checkbox is selected and removed when clicked again 
     $('.cat').on('click', '#check', function() {
-       $(this).parent('li').addClass('line');
-    });
-// Removes the line-through from the class 'line' when the checkbox is deselected
-    $('.cat').on('click', '.line', function () {
-       $(this).removeClass('line');
+       $(this).parent('li').toggleClass('line');
     });
 });
